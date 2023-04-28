@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let strArr = prompt('문자를입력해주세요').split('');
+    strArr.forEach(function(i,index){
+        if(!(index == strArr.length - 1)){
+            console.log(i +" " + strArr[index+1]);
+        }
+    });
+
+    // for(let i =0; i<strArr.length-1; i ++){
+    //     console.log(strArr[i] + " " + strArr[i+1]);
+    // }
+</script>
+</html>
