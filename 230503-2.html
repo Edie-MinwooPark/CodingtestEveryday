@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    제코배 33번
+</body>
+<script>
+    // let numArr = prompt('숫자를 입력하세요').split(' ')
+
+    // let reverse = [];
+
+    // numArr.forEach(function(i){
+    //     reverse.unshift(i)
+    // })
+    // let reverseNum = reverse.join(" ");
+    // console.log(reverseNum);
+
+const data = prompt('숫자를 입력하세요.').split(' ').reverse();
+let result = '';
+
+for (let i=0; i<data.length; i++){
+  result += data[i];
+}
+
+console.log(result);
+console.log(typeof result);
+    
+    
+</script>
+</html>
