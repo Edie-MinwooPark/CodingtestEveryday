@@ -7,18 +7,39 @@
     <title>Document</title>
 </head>
 <body>
-    
+    제코베 34번
 </body>
 <script>
     let height = prompt('키를 입력하세요').split(" ");
-    let sorted = [...height].sort((a,b)=>a-b);
+    // let sorted = [...height].sort((a,b)=>a-b);
+    let sorted = height.sort((a,b)=>a-b);
+    console.log(height)
+    console.log(sorted)
 
-    console.log(height);
-    console.log(sorted);
-    if(sorted.join("")=== height.join("")){
-        console.log("YES")
-    }else{
-        console.log("NO")
-    };
+    // console.log(height);
+    // console.log(sorted);
+    // if(sorted.join("")=== height.join("")){
+    //     console.log("YES")
+    // }else{
+    //     console.log("NO")
+    // };
+
+//     const unsorted = prompt('키를 입력하세요');
+// let sorted = "";
+
+// sorted = unsorted
+//   .split(" ")
+//   .sort(function(a, b) {
+//     return a - b;
+//   })
+//   .join(" ");
+
+//   console.log(sorted)
+//   console.log(unsorted);
+// if (unsorted === sorted) {
+//   console.log("Yes");
+// } else {
+//   console.log("No");
+// }
 </script>
 </html>
